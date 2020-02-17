@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TubeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:text="Volume Tabung" />
+
+    <EditText
+        android:id="@+id/input_jari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Jari-jari" />
+
+    <EditText
+        android:id="@+id/input_tinggi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Tinggi Tabung" />
+
+    <Button
+        android:id="@+id/btn_hasil_tabung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/txt_volume_tabung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="70sp"
+        android:textAlignment="center"
+        android:hint="0.0" />
+
+</LinearLayout>
